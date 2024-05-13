@@ -15,7 +15,7 @@ class Solution:
     
     def toIntSafe(self, arg: any) -> int:
         try:
-            int(arg)
+            return int(arg)
         except TypeError:
             print(f"Перданное значение '{arg}' не является integer-ом")
             exit(1)
